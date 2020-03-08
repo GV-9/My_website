@@ -1,0 +1,46 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: black;
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../files/img/rower-po-renowacji.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-bike {
+   width: 100%;
+   height: auto;
+   box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #007bff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    
+  }
+  
+.navbar li a, .navbar .navbar-brand {
+    color: #fff;
+  }
+  
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #007bff !important;
+    background-color: #fff !important;
+  }
+  
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
